@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "baseUrl": "./",
+        "paths": {
+            "@app/*": ["src/frontend/*"],
+            "@app-universal/*": ["src/frontend/components/universal/*"],
+            "@app-pages/*": ["src/frontend/components/pages/*"],
+            "@app-helpers/*": ["src/frontend/helpers/*"],
+            "@app-actions": ["src/frontend/actions/index.js"],
+            "@images/*": ["public/images/*"],
+            "@styles/*": ["src/frontend/styles/*"]
+        }
+    },
+    "exclude": ["node_modules", "vendor"]
+}

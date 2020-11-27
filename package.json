@@ -1,19 +1,47 @@
 {
-  "name": "aviasales-test",
-  "version": "1.0.0",
-  "description": "Тестовое задание для aviasales",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NookieNoo/aviasales-test.git"
-  },
-  "author": "NookieNoo <biv0208@yandex.ru>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NookieNoo/aviasales-test/issues"
-  },
-  "homepage": "https://github.com/NookieNoo/aviasales-test#readme"
+    "name": "aviasales-test",
+    "version": "1.0.0",
+    "description": "Тестовое задание для aviasales",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server --open",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NookieNoo/aviasales-test.git"
+    },
+    "author": "NookieNoo <biv0208@yandex.ru>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NookieNoo/aviasales-test/issues"
+    },
+    "homepage": "https://github.com/NookieNoo/aviasales-test#readme",
+    "devDependencies": {
+        "@babel/core": "^7.12.0",
+        "@babel/plugin-transform-runtime": "^7.12.1",
+        "@babel/preset-env": "^7.12.0",
+        "@babel/preset-react": "^7.10.4",
+        "babel-loader": "^8.1.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "copy-webpack-plugin": "^6.3.2",
+        "css-loader": "^5.0.0",
+        "file-loader": "^6.1.1",
+        "html-webpack-plugin": "^5.0.0-alpha.1",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.1.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-notifier": "^1.8.0",
+        "webpack-plugin-serve": "^1.1.0",
+        "webpackbar": "^4.0.0"
+    },
+    "dependencies": {
+        "axios": "^0.21.0",
+        "dev": "^0.1.3",
+        "dotenv": "^8.2.0",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "aviasales-test",
+  "version": "1.0.0",
+  "description": "Тестовое задание для aviasales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NookieNoo/aviasales-test.git"
+  },
+  "author": "NookieNoo <biv0208@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NookieNoo/aviasales-test/issues"
+  },
+  "homepage": "https://github.com/NookieNoo/aviasales-test#readme"
+}
